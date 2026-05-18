@@ -1,0 +1,1800 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Visionarios del Turismo Patrimonial y Cultural | Córdoba</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 400: '#D4AF37', 500: '#C5A017', 600: '#AA8811' },
+                        dark: { 900: '#0a0a0a', 800: '#141414', 700: '#1c1c1c' },
+                        olive: '#4A5D23', crimson: '#8B0000', albero: '#FFD700'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0a0a0a; color: #f3f4f6; }
+        .hero-bg {
+            background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.4), rgba(10, 10, 10, 1)), url('https://images.unsplash.com/photo-1549487508-62d10ea3b53f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+            background-size: cover; background-position: center; background-attachment: fixed;
+        }
+        .card-image-wrapper { overflow: hidden; }
+        .card-image {
+            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.6s ease;
+            filter: grayscale(80%) contrast(1.1);
+        }
+        .group:hover .card-image { transform: scale(1.08); filter: grayscale(0%) contrast(1); }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #C5A017; }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-dark-900">
+
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="absolute inset-0 bg-dark-900/80 backdrop-blur-md border-b border-white/5"></div>
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-4">
+                    <span class="font-serif text-2xl font-bold tracking-tight text-white">Cátedra <span class="text-gold-400">Turismo</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-1 font-sans text-sm tracking-widest uppercase">
+                    <button class="filter-btn active px-4 py-2 text-gold-400" data-filter="all">Todos</button>
+                    <button class="filter-btn px-4 py-2 text-gray-400 hover:text-white" data-filter="gestion">Gestión Patrimonial</button>
+                    <button class="filter-btn px-4 py-2 text-gray-400 hover:text-white" data-filter="innovacion">Innovación y Academia</button>
+                    <button class="filter-btn px-4 py-2 text-gray-400 hover:text-white" data-filter="kol">KOL / Prescriptores</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative hero-bg h-[85vh] flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
+        <div class="relative z-10 max-w-5xl mx-auto px-6 flex flex-col items-center">
+            <p class="text-gold-400 font-sans tracking-[0.2em] uppercase text-sm mb-6">Cátedra de Turismo Patrimonial y Cultural de Córdoba</p>
+            <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-bold mb-6 leading-tight drop-shadow-lg">
+                50 Visionarios <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-albero font-light italic">del Patrimonio</span>
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-300 font-sans max-w-2xl font-light">
+                Descubre los perfiles, proyectos e instituciones que están redefiniendo el futuro del turismo cultural y la preservación en Córdoba.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 lg:px-8 py-24" id="directorio">
+        <div class="flex items-end justify-between mb-16 border-b border-white/10 pb-8">
+            <div>
+                <h2 class="font-serif text-4xl text-white">Directorio <span class="text-gold-400 italic font-light">de Expertos</span></h2>
+                <p class="font-sans text-gray-400 mt-2">Explora los perfiles que impulsan nuestra cultura.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" id="grid">
+
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-1')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Fundación Palacio de Viana</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Leopoldo Izquierdo Fernández</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-2')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Mezquita-Catedral de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">José Joaquín Alberto Nieva García</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-3')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Museo Arqueológico de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Irene Maclino Navarro</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-4')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Antonio Vallejo Triano</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Medina Azahara  Ciudad Palatina Omeya</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-5')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Consejería de Turismo, Cultura y Deporte</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Gonzalo J. Herreros Moya</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-6')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Casa Sefarad</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Sebastián de la Obra</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-7')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Miguel Roldán</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Asociación de los Patios de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-8')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Manuel Murillo Estévez</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Agrupación de Cofradías de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-9')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Antonio Monterroso Checa</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Arqueólogo  Patrimonio Histórico</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-10')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Isabel Albás Vives</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Teniente de Alcalde de Cultura  Ayuntamiento de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-11')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Eduardo Lucena</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Delegado Territorial de Turismo y Deporte en Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-12')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Anselmo Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Patrimonio Gastronómico</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-13')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Área de Turismo de la Subbética Cordobesa</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Catalina Molina Rodríguez</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-14')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Antonio Caño</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Presidente Agencia de Turismo y OPC de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-15')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Asociación de Empresarios de Alojamientos de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Elena Rizos Espinosa</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-16')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Confederación de Empresarios de Córdoba (CEC)</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Antonia Alcántara</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-17')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Restaurante Noor (★★★ Michelin)</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Paco Morales</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item all" onclick="openModal('modal-18')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Perfil</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Investigación en Gastronomía Patrimonial</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Leonardo Gallardo Apolo</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-19')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Antonio Muñoz Ariza</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Bodegas Campos — Gastronomía Patrimonial</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-20')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Restaurante El Churrasco</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Rafael Carrillo</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-21')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Paco Rosales</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Grupo Rosales — Esencia de los Patios</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-22')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Javier Campos</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Ermita la Candelaria — Gastronomía y Territorio</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-23')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Finca El Capricho</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Rafael San Miguel</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-24')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Cofradía Gastronómica del Rabo de Toro Cordobés</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Ricardo Rojas Peinado</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-25')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Almudena Villegas</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Historiadora y Experta Gastronómica</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-26')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Javier Alcalá de la Moneda</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">DOP Baena — Aceite de Oliva Virgen Extra</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-27')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">ACORA  Asociación Oleícola de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Macarena Sánchez del Águila</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-28')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Teresa Jiménez  Guitarrista</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Teresa Jiménez</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-29')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">David Pino  Músico</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">David Pino</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-30')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Lola Pérez  Flamenco y Cultura</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Lola Pérez</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-31')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Antonio Manuel Rodriguez Ramos</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Profesor y Músico  Patrimonio Flamenco</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-32')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Desiderio Vaquerizo  Universidad de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Desiderio Vaquerizo Gil</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-33')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Mª Ángeles Jordano Barbudo</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Investigadora Académica  Patrimonio Artístico</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-34')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Mª Ángeles Recio Ramírez,</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Profesora Asociada  Universidad de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-35')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Carmen Balbuena  Turismo y Patrimonio</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Carmen Balbuena</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-36')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Manuel Rivera  Universidad de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Manuel Rivera Mateos</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-37')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Nuria Ceular  Villamandos</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Decana  Ciencias del Trabajo / Grado en Turismo UCO</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-38')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">José Antonio Fernández Gallardo  Universidad de Córdoba</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">José Antonio Fernández Gallardo</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item kol" onclick="openModal('modal-39')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">KOL</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Teresa Ávalos Ureña</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Prescription  Moda Flamenca y Cultura</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item kol" onclick="openModal('modal-40')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">KOL</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Paloma López-Sidro</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Guía Turística  Prescriptora Cultural</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item kol" onclick="openModal('modal-41')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">KOL</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Walada de la Mata</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Asociación de Guías Turísticos de Córdoba</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-42')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Dr. Tomás López-Guzmán</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Investigador y Docente  Cátedra de Turismo Patrimonial</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-43')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Juan Salado – Palacio de Congresos</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Juan Salado Soto</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-44')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Rocío Aceña - Directora del Castillo de Almodovar</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Rocío Aceña</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-45')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Fernando Lara de Vicente</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Experto en gestión cultural</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-46')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Ricardo Hernández Rojas</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Investigador y Docente  Cátedra de Turismo Patrimonial</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item innovacion" onclick="openModal('modal-47')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Academia</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Esther bueno Gallardo</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Investigador y Docente -</p>
+                </div>
+            </article>
+        
+            <article class="group cursor-pointer flex flex-col gap-4 filter-item gestion" onclick="openModal('modal-48')">
+                <div class="card-image-wrapper aspect-[3/4] rounded-sm overflow-hidden relative bg-dark-800">
+                    <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="card-image w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="inline-block px-2 py-1 bg-gold-500/20 text-gold-400 text-xs font-sans tracking-wider uppercase backdrop-blur-sm border border-gold-500/30 mb-2">Gestión</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-serif text-xl text-white group-hover:text-gold-400 transition-colors">Narcisa Ruiz Rodriguez</h3>
+                    <p class="font-sans text-sm text-gray-400 mt-1">Diputada de Turismo de Córdoba</p>
+                </div>
+            </article>
+        
+        </div>
+    </main>
+
+    <div id="modal-1" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-1')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-1')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Fundación Palacio de Viana</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Leopoldo Izquierdo Fernández</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Director Fundación Palacio de Viana</p><p class='mb-3'>Leopoldo Izquierdo lidera la Fundación Palacio de Viana, uno de los conjuntos palaciales más singulares de Córdoba.</p><p class='mb-3'>Su gestión integra patrimonio artístico, arquitectónico y cultural, posicionando el espacio como referente del turismo patrimonial de alta calidad en la ciudad.</p><p class='mb-3'>1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-2" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-2')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-2')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Mezquita-Catedral de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">José Joaquín Alberto Nieva García</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Deán de la Catedral de Córdoba</p><p class='mb-3'>Como Deán de la Catedral de Córdoba, José Joaquín es la máxima figura eclesiástica de la Mezquita-Catedral, monumento declarado Patrimonio de la Humanidad.</p><p class='mb-3'>Su papel es clave en la gestión, acceso y difusión de uno de los enclaves patrimoniales más visitados del mundo.</p><p class='mb-3'>2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-3" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-3')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-3')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Museo Arqueológico de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Irene Maclino Navarro</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Directora Museo Arqueológico de Córdoba</p><p class='mb-3'>Irene Maclino Navarro dirige el Museo Arqueológico de Córdoba, custodia de las colecciones romanas, ibéricas y medievales de la provincia.</p><p class='mb-3'>Su liderazgo es fundamental para la investigación y la divulgación del patrimonio arqueológico cordobés a nivel nacional e internacional.</p><p class='mb-3'>3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-4" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-4')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-4')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Antonio Vallejo Triano</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Medina Azahara  Ciudad Palatina Omeya</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Antonio Vallejo es referente en la gestión de Medina Azahara, ciudad palatina del siglo X declarada Patrimonio Mundial por la UNESCO en 2018.</p><p class='mb-3'>Su trabajo contribuye a preservar y proyectar internacionalmente uno de los yacimientos arqueológicos más emblemáticos de Al-Ándalus.</p><p class='mb-3'>6</p><p class='mb-3'>Conjunto Arqueológico Madinat al-Zahra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-5" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-5')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-5')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Consejería de Turismo, Cultura y Deporte</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Gonzalo J. Herreros Moya</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Director General de los Museos de Andalucía</p><p class='mb-3'>Gonzalo Herreros Moya ostenta la Dirección General de Museos de Andalucía, cargo desde el que impulsa políticas de conservación, accesibilidad y digitalización del patrimonio museístico regional.</p><p class='mb-3'>Su influencia abarca la totalidad del sistema museístico andaluz, siendo clave en la modernización de las instituciones culturales.</p><p class='mb-3'>4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-6" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-6')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-6')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Casa Sefarad</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Sebastián de la Obra</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Director Casa Sefarad</p><p class='mb-3'>Sebastián de la Obra dirige Casa Sefarad, espacio dedicado al patrimonio sefardí y al diálogo intercultural en el corazón de la Judería de Córdoba.</p><p class='mb-3'>Su labor convierte a Córdoba en referente internacional de la memoria judía medieval y la convivencia de civilizaciones.</p><p class='mb-3'>5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-7" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-7')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-7')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Foto por incorporar</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Asociación de los Patios de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Miguel Roldán</p><p class='mb-3'>Miguel Roldán representa la Asociación de los Patios de Córdoba, cuya fiesta ha sido reconocida como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.</p><p class='mb-3'>Su trabajo preserva y proyecta internacionalmente esta singular tradición cordobesa.</p><p class='mb-3'>7</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-8" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-8')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-8')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Manuel Murillo Estévez</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Agrupación de Cofradías de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>La Agrupación de Cofradías de Córdoba representa uno de los pilares del patrimonio religioso y cultural de la ciudad.</p><p class='mb-3'>Su presidente coordina el rico patrimonio procesional cordobés, un activo de turismo cultural de primer orden en Semana Santa y más allá.</p><p class='mb-3'>8</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-9" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-9')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-9')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Antonio Monterroso Checa</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Arqueólogo  Patrimonio Histórico</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Antonio Monterroso Checa es arqueólogo especializado en el patrimonio histórico cordobés.</p><p class='mb-3'>Su trabajo de investigación y divulgación contribuye al conocimiento y puesta en valor de los vestigios materiales que configuran la extraordinaria riqueza arqueológica de Córdoba.</p><p class='mb-3'>9</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-10" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-10')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-10')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Isabel Albás Vives</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Teniente de Alcalde de Cultura  Ayuntamiento de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Isabel Albas es la responsable de la política cultural del Ayuntamiento de Córdoba.</p><p class='mb-3'>Desde su cargo impulsa programas de acceso a la cultura, gestión del patrimonio y posicionamiento de Córdoba como capital cultural de referencia en Andalucía.</p><p class='mb-3'>10</p><p class='mb-3'>Ayuntamiento de Córdoba</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-11" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-11')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-11')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Eduardo Lucena</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Delegado Territorial de Turismo y Deporte en Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Eduardo Lucena representa a la Junta de Andalucía en materia de turismo y deporte en la provincia de Córdoba.</p><p class='mb-3'>Su labor de coordinación entre administraciones es esencial para el desarrollo de estrategias de turismo patrimonial que posicionen Córdoba en mercados nacionales e internacionales.</p><p class='mb-3'>12</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-12" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-12')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-12')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Anselmo Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Patrimonio Gastronómico</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Anselmo Córdoba lidera Destilerías El Duende, empresa cordobesa que recupera y proyecta el patrimonio vinícola y destilado de la provincia.</p><p class='mb-3'>Su trabajo conecta tradición artesana, paisaje y territorio con la industria turística local.</p><p class='mb-3'>13</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-13" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-13')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-13')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Área de Turismo de la Subbética Cordobesa</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Catalina Molina Rodríguez</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Subbética Cordobesa</p><p class='mb-3'>Catalina Molina Rodríguez gestiona el turismo de la Subbética Cordobesa, comarca que alberga parques naturales, aceite de oliva DOP y un rico patrimonio árabe.</p><p class='mb-3'>Su trabajo articula el turismo rural y patrimonial más allá de la capital.</p><p class='mb-3'>14</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-14" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-14')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-14')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Antonio Caño</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Presidente Agencia de Turismo y OPC de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Antonio Caño preside la agencia de turismo y organización de congresos de Córdoba, siendo pieza clave en el posicionamiento de la ciudad como destino de turismo de reuniones y MICE.</p><p class='mb-3'>Su liderazgo impulsa la llegada de eventos culturales y profesionales a la ciudad.</p><p class='mb-3'>15</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-15" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-15')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-15')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Asociación de Empresarios de Alojamientos de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Elena Rizos Espinosa</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Presidenta AHECOR — Asociación de Alojamientos</p><p class='mb-3'>Elena Rizos Espinosa preside AHECOR, la Asociación de Empresarios de Alojamientos de Córdoba.</p><p class='mb-3'>Desde esta posición representa al sector hotelero y trabaja por la mejora de la oferta de hospedaje vinculada al turismo patrimonial y cultural en la provincia.</p><p class='mb-3'>16</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-16" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-16')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-16')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">02. Política en Gestión Cultural y Patrimonial</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Confederación de Empresarios de Córdoba (CEC)</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Antonia Alcántara</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Presidenta Comisión de Cultura y Turismo — CEC</p><p class='mb-3'>Antonia Alcántara preside la Comisión de Cultura y Turismo de la Confederación de Empresarios de Córdoba (CEC), representando los intereses del sector privado y promoviendo la colaboración público-privada en la dinamización del turismo cultural cordobés.</p><p class='mb-3'>17</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-17" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-17')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-17')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Restaurante Noor (★★★ Michelin)</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Paco Morales</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Gastronomía y Patrimonio inmaterial</p><p class='mb-3'>Paco Morales es el chef cordobés más laureado de España, con tres estrellas Michelin en Noor.</p><p class='mb-3'>Su propuesta gastronómica rescata la cocina andalusí del siglo X convirtiéndose en referente mundial de la gastronomía patrimonial y en embajador de Córdoba y Al-Ándalus.</p><p class='mb-3'>18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-18" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-18')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-18')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">General</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Investigación en Gastronomía Patrimonial</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Leonardo Gallardo Apolo</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Investigador y Consultor</p><p class='mb-3'>Leonardo Gallardo Apolo destaca en la investigación de la gastronomía como motor patrimonial, centrando su labor en el rescate y puesta en valor del legado culinario cordobés como activo turístico y cultural.</p><p class='mb-3'>Su trabajo contribuye a la preservación del patrimonio inmaterial, conectando la historia de los sabores locales con la gestión moderna del turismo cultural y la identidad del territorio. Editor de la revista Cuadernos de Gestión Turística del Patrimonio.</p><p class='mb-3'>19</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-19" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-19')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-19')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">person</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Foto por incorporar</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Bodegas Campos</p><p class='mb-3'>Antonio Muñoz Ariza</p><p class='mb-3'>Gastronomía Patrimonial</p><p class='mb-3'>Antonio Muñoz Ariza lidera Bodegas Campos, uno de los restaurantes más emblemáticos y con mayor solera de Córdoba.</p><p class='mb-3'>Su establecimiento, instalado en una bodega histórica, es referente de la cocina cordobesa tradicional y escenario de diplomacia gastronómica y turismo cultural.</p><p class='mb-3'>20</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-20" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-20')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-20')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Restaurante El Churrasco</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Rafael Carrillo</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Restaurante El Churrasco — Cocina Cordobesa</p><p class='mb-3'>Rafael Carrillo dirige El Churrasco, institución de la gastronomía cordobesa ubicada en plena Judería.</p><p class='mb-3'>Su restaurante, con más de cuatro décadas de historia, es símbolo de la cocina tradicional local y espacio de referencia para visitantes que buscan la auténtica experiencia gastronómica patrimonial.</p><p class='mb-3'>21</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-21" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-21')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-21')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Foto por incorporar</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Grupo Rosales</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Paco Rosales</p><p class='mb-3'>Grupo Rosales — Esencia de los Patios</p><p class='mb-3'>Paco Rosales encabeza el Grupo Rosales, referente de la hostelería cordobesa con propuestas que integran gastronomía, patios y experiencias culturales.</p><p class='mb-3'>Su proyecto Esencia de los Patios conecta la tradición floral y la identidad local con una oferta gastronómica única en Córdoba.</p><p class='mb-3'>22</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-22" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-22')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-22')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">restaurant</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Foto por incorporar</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Ermita la Candelaria</p><p class='mb-3'>Javier Campos González</p><p class='mb-3'>Ermita la Candelaria — Gastronomía y Territorio</p><p class='mb-3'>Javier Campos dirige la Ermita la Candelaria, espacio que une gastronomía, patrimonio arquitectónico y paisaje cordobés.</p><p class='mb-3'>Su apuesta integra la experiencia culinaria con el entorno natural y cultural, siendo referente de enoturismo y turismo gastronómico en la provincia.</p><p class='mb-3'>23</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-23" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-23')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-23')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Finca El Capricho</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Rafael San Miguel</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Finca El Capricho — Patrimonio Rural y Gastronómico</p><p class='mb-3'>Rafael San Miguel gestiona Finca El Capricho, espacio que combina turismo rural, gastronomía y patrimonio agrícola cordobés.</p><p class='mb-3'>Su proyecto es ejemplo de aprovechamiento sostenible del territorio y de construcción de experiencias turísticas de calidad en el entorno rural de Córdoba.</p><p class='mb-3'>24</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-24" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-24')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-24')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Cofradía Gastronómica del Rabo de Toro Cordobés</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Ricardo Rojas Peinado</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Pdte. Cofradía Gastronómica del Rabo de Toro Cordobés</p><p class='mb-3'>Ricardo Rojas Peinado preside la Cofradía Gastronómica del Rabo de Toro Cordobés, institución que defiende y proyecta uno de los platos más representativos de la cocina patrimonial de Córdoba.</p><p class='mb-3'>Su trabajo coloca el rabo de toro como símbolo de identidad gastronómica local.</p><p class='mb-3'>25</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-25" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-25')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-25')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">menu_book</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Foto por incorporar</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Gastronomía Patrimonial y Andalusí</p><p class='mb-3'>Almudena Villegas</p><p class='mb-3'>Historiadora y Experta Gastronóma</p><p class='mb-3'>Almudena Villegas es historiadora, escritora y experta gastronóma española de reconocido prestigio.</p><p class='mb-3'>Su obra rescata el patrimonio culinario histórico andaluz e hispano, siendo referente académico y divulgativo de la gastronomía patrimonial y de la cocina andalusí.</p><p class='mb-3'>26</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-26" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-26')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-26')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">opacity</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Foto por incorporar</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>DOP Baena — Aceite de Oliva Virgen Extra</p><p class='mb-3'>Javier Alcalá de la Moneda</p><p class='mb-3'>Representante de DOP Baena</p><p class='mb-3'>Javier Alcalá de la Moneda representa la Denominación de Origen Protegida Baena, uno de los aceites de oliva virgen extra más reconocidos del mundo.</p><p class='mb-3'>Su trabajo defiende el aceite de Córdoba como patrimonio agroalimentario e identidad territorial de la provincia.</p><p class='mb-3'>27</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-27" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-27')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-27')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">03. Gestión Patrimonial Inmaterial: Gastronomía</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">ACORA  Asociación Oleícola de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Macarena Sánchez del Águila</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Macarena Sánchez del Águila representa ACORA, la asociación que articula el sector oleícola de Córdoba.</p><p class='mb-3'>Su trabajo conecta productores, patrimonio olivarero y turismo gastronómico, contribuyendo a que el aceite de oliva sea eje vertebrador de la identidad cultural cordobesa.</p><p class='mb-3'>29</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-28" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-28')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-28')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">04. Gestión Patrimonial Inmaterial: Música y Flamenco</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Teresa Jiménez  Guitarrista</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Teresa Jiménez</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Guitarrista — Patrimonio Musical Cordobés</p><p class='mb-3'>Teresa Guitar es guitarrista de referencia en el panorama musical cordobés y andaluz.</p><p class='mb-3'>Su trabajo artístico preserva y proyecta la guitarra flamenca como patrimonio cultural inmaterial, contribuyendo a la visibilidad internacional del flamenco de Córdoba y su legado musical.</p><p class='mb-3'>30</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-29" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-29')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-29')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">04. Gestión Patrimonial Inmaterial: Música y Flamenco</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">David Pino  Músico</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">David Pino</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Músico — Patrimonio Musical</p><p class='mb-3'>David Pino es músico vinculado al patrimonio musical cordobés. Su trayectoria artística contribuye a la difusión y renovación de las tradiciones musicales de la ciudad, siendo un referente para la escena local.</p><p class='mb-3'>Actúa como un puente esencial entre la herencia cultural y las nuevas audiencias, revitalizando el legado sonoro de Córdoba.</p><p class='mb-3'>31</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-30" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-30')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-30')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">04. Gestión Patrimonial Inmaterial: Música y Flamenco</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Lola Pérez  Flamenco y Cultura</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Lola Pérez</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Artista — Flamenco y Cultura</p><p class='mb-3'>Lola Pérez es artista vinculada al flamenco y la cultura cordobesa.</p><p class='mb-3'>Su trabajo escénico y creativo contribuye a la proyección del flamenco como patrimonio cultural inmaterial de la humanidad, poniendo en valor la especificidad del flamenco cordobés en el panorama nacional.</p><p class='mb-3'>32</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-31" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-31')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-31')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">04. Gestión Patrimonial Inmaterial: Música y Flamenco</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Antonio Manuel Rodriguez Ramos</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Profesor y Músico  Patrimonio Flamenco</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Antonio Manuel es profesor y músico especializado en el patrimonio flamenco y musical de Córdoba.</p><p class='mb-3'>Su labor docente y artística transmite el legado de las tradiciones musicales cordobesas a nuevas generaciones, siendo referente de la pedagogía del flamenco en la ciudad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-32" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-32')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-32')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Desiderio Vaquerizo  Universidad de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Desiderio Vaquerizo Gil</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Catedrático de Arqueología — Universidad de Córdoba</p><p class='mb-3'>Desiderio Vaquerizo Gil es catedrático de Arqueología de la UCO y uno de los mayores expertos en la Córdoba romana.</p><p class='mb-3'>Ha publicado monografías de referencia sobre Colonia Patricia y dirige revistas científicas especializadas, siendo voz fundamental del conocimiento patrimonial de la ciudad.</p><p class='mb-3'>34</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-33" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-33')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-33')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Mª Ángeles Jordano Barbudo</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Investigadora Académica  Patrimonio Artístico</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Mª Ángeles Jordano es investigadora académica especializada en patrimonio artístico cordobés.</p><p class='mb-3'>Su obra contribuye al conocimiento y difusión del legado artístico de Córdoba, siendo referente en el ámbito universitario y en la comunidad científica del arte hispano.</p><p class='mb-3'>35</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-34" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-34')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-34')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Mª Ángeles Recio Ramírez,</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Profesora Asociada  Universidad de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Especialista en Derecho Financiero y Tributario dentro del Departamento de Derecho Público y Económico.</p><p class='mb-3'>Su labor investigadora destaca por su análisis de la fiscalidad de la empresa turística, aportando una perspectiva jurídico-económica fundamental para la gestión y viabilidad de los proyectos de turismo patrimonial y cultural..</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-35" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-35')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-35')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Carmen Balbuena  Turismo y Patrimonio</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Carmen Balbuena</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Investigadora — Turismo y Patrimonio</p><p class='mb-3'>Carmen Balbuena es investigadora especializada en turismo y patrimonio cultural.</p><p class='mb-3'>Su trayectoria académica aporta conocimiento científico riguroso a la gestión del turismo patrimonial cordobés, contribuyendo a fundamentar políticas y estrategias basadas en evidencia.</p><p class='mb-3'>37</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-36" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-36')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-36')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Manuel Rivera  Universidad de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Manuel Rivera Mateos</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Investigador Catedrático — Universidad de Córdoba</p><p class='mb-3'>Manuel Rivera es catedrático e investigador de la Universidad de Córdoba, con una destacada trayectoria en el ámbito del turismo y la gestión cultural.</p><p class='mb-3'>Su obra académica y su papel en la formación de especialistas lo convierten en referente del sector en Andalucía.</p><p class='mb-3'>38</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-37" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-37')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-37')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Nuria Ceular  Villamandos</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Decana  Ciencias del Trabajo / Grado en Turismo UCO</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Nuria Ceular Villamandos es Decana de la Facultad de Ciencias del Trabajo de la UCO, que alberga el Grado en Turismo.</p><p class='mb-3'>Su liderazgo académico e institucional es fundamental para la formación de profesionales del turismo patrimonial y cultural en Córdoba.</p><p class='mb-3'>39</p><p class='mb-3'>Nuria Ceular — Universidad de Córdoba</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-38" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-38')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-38')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">José Antonio Fernández Gallardo  Universidad de Córdoba</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">José Antonio Fernández Gallardo</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Investigador — Universidad de Córdoba</p><p class='mb-3'>José Antonio Fernández Gallardo es investigador de la Universidad de Córdoba con especialización en turismo y patrimonio.</p><p class='mb-3'>Su trabajo contribuye al avance del conocimiento científico sobre el turismo cultural cordobés y al posicionamiento académico de Córdoba como centro de referencia en la materia.</p><p class='mb-3'>40</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-39" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-39')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-39')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">06. KOL — Key Opinion Leaders</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Teresa Ávalos Ureña</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Prescription  Moda Flamenca y Cultura</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Teresa Ávalos es referente en moda flamenca y cultura cordobesa, con presencia digital de alta influencia.</p><p class='mb-3'>Su contenido visibiliza el flamenco, la artesanía y la identidad cultural de Córdoba ante audiencias globales, convirtiéndola en embajadora digital del patrimonio cultural andaluz.</p><p class='mb-3'>Teresa Ávalos — Prescriptora Cultural</p><p class='mb-3'>41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-40" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-40')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-40')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">06. KOL — Key Opinion Leaders</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Paloma López-Sidro</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Guía Turística  Prescriptora Cultural</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Paloma es guía turística y prescriptora cultural de Córdoba, con una voz reconocida en el ámbito del turismo patrimonial.</p><p class='mb-3'>Su conocimiento profundo de la ciudad y su capacidad de comunicación la convierten en referente para visitantes que buscan experiencias culturales auténticas.</p><p class='mb-3'>Paloma López-Sidro — Guía Turística</p><p class='mb-3'>42</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-41" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-41')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-41')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">06. KOL — Key Opinion Leaders</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Walada de la Mata</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Asociación de Guías Turísticos de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Walada de la Mata lidera la Asociación de Guías Turísticos de Córdoba, siendo voz representativa del colectivo profesional que acompaña y da vida al patrimonio de la ciudad.</p><p class='mb-3'>Su labor garantiza la transmisión de calidad del rico legado histórico y cultural cordobés.</p><p class='mb-3'>Walada de la Mata — Guía Turística</p><p class='mb-3'>43</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-42" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-42')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-42')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Dr. Tomás López-Guzmán</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Investigador y Docente  Cátedra de Turismo Patrimonial</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>El Dr. Tomás López-Guzmán es un referente académico en el ámbito del turismo, destacando por su prolífica labor investigadora y docente.</p><p class='mb-3'>Su trabajo se centra en el análisis del impacto socioeconómico del turismo cultural y la gestión sostenible de los destinos patrimoniales, aportando una visión innovadora que integra la excelencia académica con el desarrollo territorial.</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-43" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-43')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-43')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Juan Salado – Palacio de Congresos</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Juan Salado Soto</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Presidente del Palacio de Congresos</p><p class='mb-3'>Juan Salado Soto es empresario y actual Presidente del Palacio de Congresos de Córdoba.</p><p class='mb-3'>Su liderazgo estratégico impulsa de forma clave el turismo de negocios y congresos (MICE), conectando con éxito la proyección internacional de la ciudad con el desarrollo patrimonial y económico del sector turístico cordobés.</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-44" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-44')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-44')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Rocío Aceña - Directora del Castillo de Almodovar</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Rocío Aceña</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Directora del Castillo de Almodóvar</p><p class='mb-3'>Rocío Aceña es especialista en turismo y actual Directora del Castillo de Almodóvar.</p><p class='mb-3'>Su liderazgo de gestión impulsa la promoción de esta emblemática fortaleza, conectando la preservación histórica con experiencias culturales únicas en el sector turístico cordobés.</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-45" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-45')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-45')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Fernando Lara de Vicente</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Experto en gestión cultural</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>36</p><p class='mb-3'>Fernando Lara de Vicente es profesor investigador en la Universidad de Córdoba (UCO) y con amplia trayectoria académica en Cultura.</p><p class='mb-3'>Su labor académica e institucional impulsa la innovación y gestión del patrimonio cultural, conectando la docencia con el sector productivo cordobés.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-46" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-46')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-46')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Ricardo Hernández Rojas</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Investigador y Docente  Cátedra de Turismo Patrimonial</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Ricardo Hernández es investigador y docente en turismo patrimonial y cultural, impulsor clave de la Cátedra de Turismo Patrimonial y Cultural de Córdoba.</p><p class='mb-3'>Su liderazgo académico conecta investigación, docencia y práctica profesional en el sector turístico cordobés.</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-47" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-47')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-47')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">05. Innovación y Academia</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Esther bueno Gallardo</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Investigador y Docente -</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Esther Bueno Gallardo es investigadora y docente en derecho tributario y turismo, codirectora en la Cátedra de Turismo Patrimonial y Cultural de Córdoba.</p><p class='mb-3'>Su liderazgo académico impulsa el análisis de la fiscalidad turística, conectando la investigación con el sector económico cordobés.</p><p class='mb-3'>36</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="modal-48" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4 sm:p-6" aria-modal="true" role="dialog">
+        <div class="absolute inset-0 bg-dark-900/90 backdrop-blur-sm modal-backdrop transition-opacity opacity-0" onclick="closeModal('modal-48')"></div>
+        <div class="relative w-full max-w-4xl bg-dark-800 shadow-2xl rounded-sm overflow-hidden flex flex-col md:flex-row modal-content transform scale-95 opacity-0 transition-all duration-300 border border-white/10">
+            <button onclick="closeModal('modal-48')" class="absolute top-4 right-4 z-10 text-white/50 hover:text-white bg-dark-900/50 rounded-full p-2 backdrop-blur-md transition-colors">
+                ✕
+            </button>
+            <div class="w-full md:w-2/5 h-64 md:h-auto relative">
+                <img src="https://images.unsplash.com/photo-1598550874175-4d0ef43ee90d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Retrato" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="w-full md:w-3/5 p-8 md:p-12 overflow-y-auto max-h-[80vh]">
+                <span class="text-gold-400 font-sans tracking-widest uppercase text-xs font-semibold mb-2 block">01. Gestión Patrimonial Material</span>
+                <h2 class="font-serif text-3xl md:text-4xl text-white mb-2">Narcisa Ruiz Rodriguez</h2>
+                <p class="font-sans text-gray-400 mb-8 pb-6 border-b border-white/10">Diputada de Turismo de Córdoba</p>
+                <div class="prose prose-invert prose-p:font-sans prose-p:font-light prose-p:leading-relaxed prose-p:text-gray-300">
+                    <p class='mb-3'>Narci Ruiz es periodista y política especialista en turismo, Diputada Delegada Especial de Turismo en la Diputación de Córdoba.</p><p class='mb-3'>Su liderazgo institucional impulsa la promoción provincial, conectando la preservación del patrimonio con el desarrollo económico y turístico cordobés</p><p class='mb-3'>[#]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <footer class="bg-dark-800 border-t border-white/5 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                <div>
+                    <span class="font-serif text-2xl font-bold text-white mb-4 block">Cátedra <span class="text-gold-400">Turismo</span></span>
+                    <p class="font-sans text-sm text-gray-400 leading-relaxed max-w-xs">
+                        Cátedra de Turismo Patrimonial y Cultural. Impulsando la investigación, gestión y divulgación del legado cordobés.
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs font-sans text-gray-500">
+                <p>&copy; 2026 Cátedra de Turismo Patrimonial y Cultural de Córdoba.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const gridItems = document.querySelectorAll('.filter-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('text-gold-400');
+                    b.classList.add('text-gray-400');
+                });
+                btn.classList.remove('text-gray-400');
+                btn.classList.add('text-gold-400');
+
+                const filter = btn.getAttribute('data-filter');
+
+                gridItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'flex';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        function openModal(id) {
+            const m = document.getElementById(id);
+            if(!m) return; 
+            m.classList.remove('hidden'); 
+            void m.offsetWidth;
+            m.querySelector('.modal-backdrop').classList.replace('opacity-0', 'opacity-100');
+            m.querySelector('.modal-content').classList.replace('opacity-0', 'opacity-100');
+            m.querySelector('.modal-content').classList.replace('scale-95', 'scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal(id) {
+            const m = document.getElementById(id);
+            if(!m) return;
+            m.querySelector('.modal-backdrop').classList.replace('opacity-100', 'opacity-0');
+            m.querySelector('.modal-content').classList.replace('opacity-100', 'opacity-0');
+            m.querySelector('.modal-content').classList.replace('scale-100', 'scale-95');
+            setTimeout(() => { m.classList.add('hidden'); document.body.style.overflow = ''; }, 300);
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const openModals = document.querySelectorAll('[id^="modal-"]:not(.hidden)');
+                openModals.forEach(modal => closeModal(modal.id));
+            }
+        });
+    </script>
+</body>
+</html>
