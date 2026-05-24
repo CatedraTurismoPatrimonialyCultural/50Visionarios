@@ -49,6 +49,28 @@
         ::-webkit-scrollbar-track { background: #0a0a0a; }
         ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #C5A017; }
+        
+        /* Mobile horizontal category list scrollbar hiding */
+        .scrollbar-none::-webkit-scrollbar { display: none; }
+        .scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Responsive Modal Viewport Overrides */
+        @media (max-width: 767px) {
+            .modal-content {
+                max-height: 90vh !important;
+                display: flex !important;
+                flex-direction: column !important;
+            }
+            .modal-content > div:first-of-type {
+                height: 180px !important;
+                flex-shrink: 0 !important;
+            }
+            .modal-content > div:last-of-type {
+                max-height: calc(90vh - 180px) !important;
+                overflow-y: auto !important;
+                padding: 1.5rem !important;
+            }
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-gold-500 selection:text-dark-900">
@@ -68,7 +90,16 @@
                 </div>
             </div>
         </div>
-    </nav>
+            <!-- Barra de filtros scrollable para dispositivos moviles -->
+        <div class="md:hidden relative border-t border-white/5 bg-dark-950/40 backdrop-blur-md">
+            <div class="flex items-center justify-start gap-2 overflow-x-auto py-3 px-4 scrollbar-none font-sans text-xs tracking-wider uppercase whitespace-nowrap">
+                <button class="filter-btn active px-3.5 py-1.5 rounded-full text-gold-400 bg-gold-500/10 border border-gold-500/20" data-filter="all">Todos</button>
+                <button class="filter-btn px-3.5 py-1.5 rounded-full text-gray-400 bg-white/5 border border-white/5" data-filter="gestion">Gestión</button>
+                <button class="filter-btn px-3.5 py-1.5 rounded-full text-gray-400 bg-white/5 border border-white/5" data-filter="innovacion">Academia</button>
+                <button class="filter-btn px-3.5 py-1.5 rounded-full text-gray-400 bg-white/5 border border-white/5" data-filter="kol">KOL</button>
+            </div>
+        </div>
+</nav>
 
     <header class="relative hero-bg h-[85vh] flex items-center justify-center text-center">
         <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent"></div>
@@ -1707,14 +1738,27 @@
 
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                filterBtns.forEach(b => {
-                    b.classList.remove('text-gold-400');
-                    b.classList.add('text-gray-400');
-                });
-                btn.classList.remove('text-gray-400');
-                btn.classList.add('text-gold-400');
-
                 const filter = btn.getAttribute('data-filter');
+
+                // Synchronize active states across desktop and mobile filter buttons
+                filterBtns.forEach(b => {
+                    const isMobile = b.classList.contains('rounded-full');
+                    if (b.getAttribute('data-filter') === filter) {
+                        b.classList.remove('text-gray-400');
+                        b.classList.add('text-gold-400');
+                        if (isMobile) {
+                            b.classList.remove('bg-white/5', 'border-white/5');
+                            b.classList.add('bg-gold-500/10', 'border-gold-500/20');
+                        }
+                    } else {
+                        b.classList.remove('text-gold-400');
+                        b.classList.add('text-gray-400');
+                        if (isMobile) {
+                            b.classList.remove('bg-gold-500/10', 'border-gold-500/20');
+                            b.classList.add('bg-white/5', 'border-white/5');
+                        }
+                    }
+                });
 
                 gridItems.forEach(item => {
                     if (filter === 'all' || item.classList.contains(filter)) {
