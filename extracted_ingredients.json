@@ -1,0 +1,410 @@
+[
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Gadus morhua",
+        "ingrediente": "Bacalao"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Merluccius merluccius",
+        "ingrediente": "Merluza"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Merluccius merluccius",
+        "ingrediente": "Huevas de merluza"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Mugil cephalus / Thunnus spp.",
+        "ingrediente": "Botarga (huevas curadas)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Cerastoderma edule / Ruditapes decussatus",
+        "ingrediente": "Antubiya (berberecho/almeja)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Ostrea edulis",
+        "ingrediente": "Ostra"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Ensis ensis",
+        "ingrediente": "Navaja"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Loligo vulgaris",
+        "ingrediente": "Calamar"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Palaemon serratus",
+        "ingrediente": "Quisquilla"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Engraulis encrasicolus",
+        "ingrediente": "Anchoa"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Acipenser sturio",
+        "ingrediente": "Caviar (huevas de esturión)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas)",
+        "categoria": "PESCADOS Y MARISCOS",
+        "taxonomia": "Parapenaeus longirostris",
+        "ingrediente": "Cancocos (gamba)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Bos taurus",
+        "ingrediente": "Buey curado"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Dama dama",
+        "ingrediente": "Gamo"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Columba livia domestica",
+        "ingrediente": "Pichón"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Bos taurus / Ovis aries",
+        "ingrediente": "Mirkas (embutido árabe)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Streptopelia turtur",
+        "ingrediente": "Tórtola"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Bos taurus",
+        "ingrediente": "Molleja de ternera"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Anónimo; Ibn Razīn al-Tuŷībī Anónimo",
+        "categoria": "CARNES, AVES Y CASQUERÍA",
+        "taxonomia": "Oryctolagus cuniculus",
+        "ingrediente": "Arnab (conejo/liebre)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Manuela Marín; Anónimo Anónimo (Documento técnico de Taifas) Manuela Marín (citando a Ibn Razīn); Anónimo",
+        "categoria": "LÁCTEOS, HUEVOS Y GRASAS",
+        "taxonomia": "Gallus gallus domesticus",
+        "ingrediente": "Yema de huevo"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Manuela Marín; Anónimo Anónimo (Documento técnico de Taifas) Manuela Marín (citando a Ibn Razīn); Anónimo",
+        "categoria": "LÁCTEOS, HUEVOS Y GRASAS",
+        "taxonomia": "Bos taurus (producto lácteo)",
+        "ingrediente": "Smen (mantequilla fermentada)"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Manuela Marín; Anónimo Anónimo (Documento técnico de Taifas) Manuela Marín (citando a Ibn Razīn); Anónimo",
+        "categoria": "LÁCTEOS, HUEVOS Y GRASAS",
+        "taxonomia": "Bos taurus / Ovis aries",
+        "ingrediente": "Leche"
+    },
+    {
+        "autores": "Anónimo (Documento técnico de Taifas) Manuela Marín; Anónimo Anónimo (Documento técnico de Taifas) Manuela Marín (citando a Ibn Razīn); Anónimo",
+        "categoria": "LÁCTEOS, HUEVOS Y GRASAS",
+        "taxonomia": "Bos taurus / Capra hircus",
+        "ingrediente": "Queso fresco"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Citrus sinensis",
+        "ingrediente": "Naranja"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Citrus limon",
+        "ingrediente": "Limón en salmuera"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Prunus dulcis",
+        "ingrediente": "Almendra"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Pistacia vera",
+        "ingrediente": "Pistacho"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Malus domestica",
+        "ingrediente": "Manzana"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Ceratonia siliqua",
+        "ingrediente": "Algarroba"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Tamarindus indica",
+        "ingrediente": "Tamarindo"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Citrus aurantium",
+        "ingrediente": "Naranja amarga"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Pyrus communis",
+        "ingrediente": "Pera de otoño"
+    },
+    {
+        "autores": "Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Khayr al-Dīn ibn Ilyās Khayr al-Dīn ibn Ilyās (citando a Ibn Wahshiyya) Ibn Baṣṣāl; Anónimo Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Anónimo (Documento técnico de Taifas)",
+        "categoria": "FRUTAS Y FRUTOS SECOS",
+        "taxonomia": "Citrus spp.",
+        "ingrediente": "Cítricos (genérico)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Olea europaea",
+        "ingrediente": "Aceituna (zumo)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Allium sativum",
+        "ingrediente": "Ajo"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Boletus edulis",
+        "ingrediente": "Boletus"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Fungi spp.",
+        "ingrediente": "Setas"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Cucurbita pepo",
+        "ingrediente": "Calabaza"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Solanum melongena",
+        "ingrediente": "Berenjena"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Agaricus bisporus",
+        "ingrediente": "Champiñón (secado al sol)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Mezcla: Cucurbita, Daucus, Spinacia, etc.",
+        "ingrediente": "Verduras (menestra)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Brassica rapa",
+        "ingrediente": "Nabo blanco"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Spinacia oleracea",
+        "ingrediente": "Sabankh (espinaca)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Nelumbo nucifera / Sambucus nigra",
+        "ingrediente": "Flores de Egipto"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Brassica oleracea var. botrytis",
+        "ingrediente": "Coliflor"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Vicia faba",
+        "ingrediente": "Hummus de haba seca"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Apium graveolens var. rapaceum",
+        "ingrediente": "Apionabo"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Cucurbita pepo var. zucchini",
+        "ingrediente": "Calabacín"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Foeniculum vulgare",
+        "ingrediente": "Hinojo"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Asparagus officinalis",
+        "ingrediente": "Espárrago"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Rosa spp.",
+        "ingrediente": "Rosas (pétalos)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Solanum lycopersicum",
+        "ingrediente": "Hammis (tomate)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Jiménez Castillo & Simón García Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Anónimo Ibn Baṣṣāl Khayr al-Dīn ibn Ilyās; Manuela Marín (citando a Ibn Razīn al-Tuŷībī) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Anónimo (Documento técnico de Taifas) Ibn Baṣṣāl Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Ibn Baṣṣāl Anónimo (Documento técnico de Taifas) Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Ibn Baṣṣāl; Anónimo Anónimo; Crónicas coloniales (nota histórica) Anónimo (Documento técnico de Taifas)",
+        "categoria": "VERDURAS, HORTALIZAS Y HONGOS",
+        "taxonomia": "Corallinales spp.",
+        "ingrediente": "Coral vegetal"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Crocus sativus",
+        "ingrediente": "Azafrán"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Coriandrum sativum",
+        "ingrediente": "Kabzra (cilantro)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Petroselinum crispum",
+        "ingrediente": "Albaqdunis (perejil)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Origanum vulgare",
+        "ingrediente": "Orégano"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Mezcla: Cinnamomum, Coriandrum, Zingiber, etc.",
+        "ingrediente": "Ras Al Hanout"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Ferula assa-foetida",
+        "ingrediente": "Asáfetida"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "— (fermentación acética)",
+        "ingrediente": "Vinagre"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Cuminum cyminum",
+        "ingrediente": "Kamun (comino)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Mentha × piperita var. citrata",
+        "ingrediente": "Menta naranja"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Curcuma longa",
+        "ingrediente": "Cúrcuma"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Mezcla: Ocimum basilicum, etc.",
+        "ingrediente": "Pesto de hierbas"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Mezcla: Coriandrum, Cuminum, Capsicum, etc.",
+        "ingrediente": "Kefta (especias)"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Rhus coriaria",
+        "ingrediente": "Sumak"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Sinapis alba / Brassica nigra",
+        "ingrediente": "Semillas de mostaza"
+    },
+    {
+        "autores": "Abū 'l-Khayr ash-Shajjār al-Ishbīlī; Anónimo Anónimo Anónimo (Documento técnico de Taifas) Anónimo; Ibn al-Awwām Anónimo; Ibn Razīn al-Tuŷībī Anónimo; Manuela Marín (citando a Ibn Razīn) Ibn Baṣṣāl; Anónimo Ibn Baṣṣāl; Manuela Marín Ibn Baṣṣāl; Manuela Marín (citando a Ibn Razīn) Manuela Marín; Anónimo",
+        "categoria": "ESPECIAS, AROMÁTICAS Y BOTÁNICOS",
+        "taxonomia": "Pistacia lentiscus",
+        "ingrediente": "Mastik (resina de lentisco)"
+    }
+]
