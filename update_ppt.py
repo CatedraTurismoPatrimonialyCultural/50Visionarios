@@ -8,7 +8,7 @@ import json
 # Slide Index 0-42
 SLIDE_DATA = {
     0: {"name": "Leopoldo Izquierdo Fernández", "img_url": "https://static.diariocordoba.com/clip/49ed850d-6e8a-4c2d-9b1b-7c7f7d7d7d7d_16-9-aspect-ratio_default_0.jpg"},
-    1: {"name": "José Joaquín Alberto Nieva García", "img_url": "https://www.diocesisdecordoba.es/media//2025/06/MG_6888-dean-catedral-cordoba-joaquin-alberto-nieva.jpg"},
+    1: {"name": "Joaquín Alberto Nieva García", "img_url": "https://www.diocesisdecordoba.es/media//2025/06/MG_6888-dean-catedral-cordoba-joaquin-alberto-nieva.jpg"},
     2: {"name": "Irene Maclino Navarro", "img_url": "https://static.eldiadecordoba.es/clip/08f7d998-f2f5-4f4b-8e2b-7e6e5d4c3b2a_16-9-aspect-ratio_default_0.jpg"},
     3: {"name": "Gonzalo J. Herreros Moya", "img_url": "https://lanochedelosinvestigadores.fundaciondescubre.es/wp-content/uploads/2021/09/Gonzalo-Jesus-Herreros-Moya.jpg"},
     4: {"name": "Sebastián de la Obra", "img_url": "https://lacasadesefarad.com/wp-content/uploads/2018/01/Sebastian-de-la-Obra.jpg"},
